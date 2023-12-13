@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Хазина</title>
+</head>
+
+<body class="basket">
+    <div class="basket__wrapper">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-body-secondary">
+                <div class="container-fluid">
+                    <div class="container__flex">
+                        <a class="navbar-brand" href="#">
+                            <img class="logo" src="../img/logo.png" alt="logo" width="75" height="75">
+                        </a>
+                        <div class="navbar__links">
+                            <a href="https://www.facebook.com/profile.php?id=100048152092795" target="_blank"><i
+                                    class="fa-brands fa-facebook"></i> Facebook</a>
+                            <a href="https://www.instagram.com/yakubovm534/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i>
+                                Instagram</a>
+                            <a href="https://t.me/niceboyiam" target="_blank"><i class="fa-brands fa-telegram"></i>
+                                Telegram</a>
+                            <a href="https://wa.me/992933254625?text=Ассалому алейкум" target="_blank"><i
+                                    class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                        </div>
+                    </div>
+
+                    <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+                        <div class="burger__nav">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <ul class="navbar-nav d-flex gap-1">
+                            <li class="nav-item dropdown">
+                                <a class="btn btn-success nav-link dropdown-toggle fw-bold" href="#"
+                                    id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Гулхо
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark"
+                                    aria-labelledby="navbarDarkDropdownMenuLink">
+                                    <li><a class="dropdown-item fw-bold" href="bouquet.html">Гултаста</a></li>
+                                    <li><a class="dropdown-item fw-bold" href="../index.html">Гулхои хонаги</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-success nav-link fw-bold" href="../pages/team.html">Дар бораи
+                                    мо</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item nav__links">
+                                <div class="navbar__message p-3">
+                                    <a href="https://www.facebook.com/profile.php?id=100048152092795" target="_blank"><i
+                                            class="fa-brands fa-facebook"></i> Facebook</a>
+                                    <a href="https://www.instagram.com/yakubovm534/" target="_blank"><i
+                                            class="fa-brands fa-instagram"></i>
+                                        Instagram</a>
+                                    <a href="https://t.me/niceboyiam" target="_blank"><i
+                                            class="fa-brands fa-telegram"></i>
+                                        Telegram</a>
+                                    <a href="https://wa.me/992933254625?text=Ассалому алейкум" target="_blank"><i
+                                            class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                                </div>
+                            </li>
+                            <li class="nav-item nav__basket-list">
+                                <div class="nav__basket-item">
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="basket__vive">
+                <div class="card text-center bg-transparent">
+                    <div class="card__container">
+                        <div class="card-header">
+                            <ul class="nav nav-pills gap-2 card-header-pills align-items-center">
+                                <li class="nav-item">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-info" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Тарзи харидан
+                                    </button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Тарзи харид</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form class="form-model d-flex flex-column gap-1" action="#">
+                                                        <p>Сурогаи электрони</p>
+                                                        <input placeholder="E-Mail @" class="form-control wallet-input"
+                                                            type="email">
+                                                        <p>Номери телефон</p>
+                                                        <input placeholder="+992900000000"
+                                                            class="form-control wallet-input" type="tel">
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <p>Тарзи пардохт</p>
+                                                            <div class="d-flex flex-column">
+                                                                <div class="align-self-end">
+                                                                    <label class="form-check-label">Алиф</label>
+                                                                    <input class="form-check-input wallet-card"
+                                                                        value="alif" name="card" type="radio">
+                                                                </div>
+                                                                <div class="align-self-end">
+                                                                    <label
+                                                                        class="form-check-label">Dushanbe-City</label>
+                                                                    <input class="form-check-input wallet-card"
+                                                                        value="d-city" name="card" type="radio">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Бекор
+                                                        кардан</button>
+                                                    <button type="button"
+                                                        class="btn btn-primary btn-wallet">Гузоштан</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled fw-bold" href="#" tabindex="-1" aria-disabled="true">0
+                                        сомони</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-body basket-page">
+                            <div class="basket-page__items grid">
+                            </div>
+                            <h5 class="card-title ">Сабад</h5>
+                            <p class="card-text eror">Лутфан тафсилоти дурустро ворид кунед!!!</p>
+                            <a href="#" class="btn btn-primary btn-sell ">Харидан</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section about">
+                        <h3 class="footer-heading">Мо</h3>
+                        <p>Мо дӯкони гулҳои боэътимоди шумо ҳастем, ки интихоби васеи гулҳои тару тоза ва зеборо
+                            пешкаш
+                            мекунем. Мо мекӯшем, ки бо гулдастаҳо ва ороишоти зебои худ ба ҳаёти шумо шодӣ бахшем.
+                        </p>
+                    </div>
+                    <div class="footer-section contact">
+                        <h3 class="footer-heading">Тамос</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> Суроға: к. Нахимова, 64/14, шахри Душанбеа</p>
+                        <p><i class="fas fa-envelope"></i> Email: yakubovm533@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> Телефон: +992933254625</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Дӯкони гул. Ҳамаи ҳуқуқ маҳфуз аст.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--Awesome-->
+    <script src="https://kit.fontawesome.com/d4e154282e.js" crossorigin="anonymous"></script>
+    <!-- bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/basket.js"></script>
+</body>
+
+</html>
